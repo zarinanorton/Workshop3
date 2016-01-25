@@ -1,3 +1,5 @@
-# Workshop 2 Repository
+# Workshop 3 Repository
 
-In this repository, you will
+A repository for Workshop 3, in which you will experiment with HTML, CSS, and Bootstrap.
+
+See the workshop text for more information.
