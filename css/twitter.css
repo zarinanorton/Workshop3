@@ -1,0 +1,22 @@
+
+
+.panel {
+margin-top: 10px;
+margin-bottom: 5px;
+border-top: 1px solid lightgray;
+}
+.panel li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left:10px;
+  margin-right:10px;
+  border-top: 1px solid lightgray;
+}
+.custom-row {
+  padding-bottom: 20px;
+}
+body {
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-left: 40px;
+}
