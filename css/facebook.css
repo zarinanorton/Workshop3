@@ -72,6 +72,141 @@ border-top: 1px solid lightgray;
 .fb-status-update .panel-body { padding-bottom: 5px;
 }
 
+.fb-right-sidebar {
+color: #9197a3;
+border: 1px solid lightgrey;
+background-color: white;
+padding-bottom: 10px;
+}
+
+.fb-right-sidebar .glyphicon-gift {
+color: white;
+background-color: red;
+padding: 2px;
+border-radius: 2px;
+}
+
+.fb-trending > .row:first-child li a {
+color: inherit;
+}
+.fb-trending > .row:first-child li.active a {
+background-color: transparent;
+color: #5990ff;
+}
+.fb-trending > .row:nth-child(2) .glyphicon-flash {
+color: #5990ff;
+}
+
+a, a:visited {
+color: #3b5998;
+font-weight: bold;
+}
+
+.navbar {
+background-color: #3a5795;
+}
+
+.navbar .navbar-brand, .navbar .navbar-brand:hover {
+color: white;
+}
+
+.navbar button { background-color: transparent; border: none;
+color: #2e467c;
+}
+
+.navbar button:hover { background-color: transparent; color: #22345c;
+border: none;
+}
+
+.navbar button:active, .navbar button:focus, .navbar button:active:focus {
+background-color: transparent;
+color: white;
+border: none;
+outline: none;
+box-shadow: none;
+}
+
+.navbar form button,
+.navbar form button:hover,
+.navbar form button:focus,
+.navbar form button:active,
+.navbar form button:active:focus {
+background-color: lightgrey;
+color: black;
+width: 50px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top: 1px solid rgb(204, 204, 204);
+border-bottom: 1px solid rgb(204, 204, 204);
+border-right: 1px solid rgb(204, 204, 204);
+outline: none;
+box-shadow: none;
+}
+
+button.fb-notifications, button.fb-notifications:hover {
+color: white;
+}
+/* Make the Bootstrap badges more Facebook-style in the navbar */
+.navbar .badge {
+background-color: red;
+color: white;
+border-radius: 3px;
+padding-left: 4px;
+padding-right: 4px;
+border: 1px solid black;
+right: 8px;
+top: -10px;
+}
+.navbar .navbar-right > .btn-toolbar > .btn-group:first-child button,
+.navbar .navbar-right > .btn-toolbar > .btn-group:nth-child(2) button {
+color: white;
+}
+.navbar .navbar-right > .btn-toolbar > .btn-group:first-child button:hover,
+.navbar .navbar-right > .btn-toolbar > .btn-group:nth-child(2) button:hover {
+background-color: #2e467c;
+}
+
+.fb-left-sidebar .nav > li > a
+{
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 0px;
+color: black;
+font-weight: normal;
+}
+
+.fb-left-sidebar .nav > li > a:hover, .fb-left-sidebar .nav > li.active > a:hover {
+background-color: #dcdee3;
+color: black;
+}
+
+.fb-left-sidebar .nav > li > a:active,
+.fb-left-sidebar .nav > li > a:focus,
+.fb-left-sidebar .nav > li > a:active:focus,
+.fb-left-sidebar .nav > li.active > a:active,
+.fb-left-sidebar .nav > li.active > a:focus,
+.fb-left-sidebar .nav > li.active > a:active:focus
+{
+background-color: transparent;
+color: black;
+}
+
+.fb-left-sidebar .badge {
+background-color: transparent;
+color: #4e5665;
+font-weight: normal;
+}
+/* Color all text items in the left sidebar this color gray. */
+.fb-left-sidebar {
+color: #9197a3;
+}
+/* The active pill should be bolded w/ no background. */
+.fb-left-sidebar .nav > li.active > a {
+font-weight: bold;
+background-color: transparent;
+}
+
 body {
   padding-top: 60px;
+  background-color: #e9eaed;
 }
