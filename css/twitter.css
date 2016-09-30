@@ -1,20 +1,39 @@
 
-
 .panel {
 margin-top: 10px;
 margin-bottom: 5px;
 border-top: 1px solid lightgray;
 }
-.panel li {
+li.media {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-left:10px;
   margin-right:10px;
   border-top: 1px solid lightgray;
 }
+li.inline-element {
+  padding-right:40px;
+}
+li.twitter-glyph {
+  padding-right:50px;
+  color: gray;
+}
 .custom-row {
   padding-bottom: 20px;
 }
+.twitter-search {
+  border-radius:20px;
+  color:white;
+}
+button.search-btn {
+  border-radius:20px;
+  border-left:none;
+  outline:none;
+}
+button.search-btn:focus {
+  outline:none !important;
+}
+
 body {
   padding-top: 60px;
   padding-right: 30px;
